@@ -10,6 +10,7 @@
   "main": "./lib/ottoman",
   "license": "Apache2",
   "name": "ottoman",
+  "types": "index.d.ts",
   "scripts": {
     "test": "eslint ./lib && istanbul cover ./node_modules/mocha/bin/_mocha -- test/*.test.js"
   },
@@ -25,6 +26,7 @@
     "couchbase": "~2.6.7"
   },
   "devDependencies": {
+    "@types/couchbase": "^2.4.1",
     "chai": "^4.2.0",
     "eslint": "^5.7.0",
     "istanbul": "^0.4.5",
@@ -33,7 +35,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/couchbaselabs/node-ottoman.git"
+    "url": "http://github.com/mmcmann/node-ottoman.git"
   },
   "version": "1.0.6"
 }
